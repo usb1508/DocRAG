@@ -143,7 +143,7 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## Future Enhancements possible
+## Possible Future Enhancements
 
 - Support for multi-language queries and responses.
 - Support Images,Audio,Video file type
