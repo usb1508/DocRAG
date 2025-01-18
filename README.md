@@ -60,14 +60,14 @@ Uploads and indexes your data into the vector database.
 - **Request Body:**
   ```json
   {
-    "data": "<your-data-as-string-or-json>",
+    "content": "<your-data-as-string-or-json>",
     "metadata": { "key": "value" }
   }
   ```
+ 
 - **Response:**
   ```json
   {
-    "status": "success",
     "message": "Data ingested successfully."
   }
   ```
@@ -80,15 +80,13 @@ Ask questions based on your ingested data.
 - **Request Body:**
   ```json
   {
-    "query": "<your-question>",
-    "context": "<optional-context>"
+    "question": "<your-question>",
   }
   ```
 - **Response:**
   ```json
   {
-    "status": "success",
-    "response": "<contextual-response-from-llm>"
+    "answer": "<contextual-response-from-llm>"
   }
   ```
 

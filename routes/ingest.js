@@ -91,8 +91,8 @@ try {
 	
 		res.status(200).json({
 		  message: "Document ingested successfully!",
-		  documentId: document._id,  
-		  embeddingsSummary: embeddingValues.slice(0, 10)  
+		//   documentId: document._id,  
+		//   embeddingsSummary: embeddingValues.slice(0, 10)  
 		});
 	} else {
 	return res.status(400).json({ error: "Unsupported content type. Please upload a valid PDF." });
