@@ -20,8 +20,8 @@ This project provides a highly flexible and efficient API for creating personali
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/usb1508/DocRAG.git
+   cd DocRAG
    ```
 
 2. **Install Dependencies:**
